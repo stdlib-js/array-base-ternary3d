@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ternary3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ternary3d@deno/mod.js';
+import ternary3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ternary3d@v0.1.0-deno/mod.js';
 ```
 
 #### ternary3d( arrays, shape, fcn )
@@ -101,7 +101,7 @@ The function accepts the following arguments:
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filled3dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled3d-by@deno/mod.js';
 import zeros3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros3d@deno/mod.js';
-import ternary3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ternary3d@deno/mod.js';
+import ternary3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ternary3d@v0.1.0-deno/mod.js';
 
 function add( x, y, z ) {
     return x + y + z;
