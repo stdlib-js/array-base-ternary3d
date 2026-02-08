@@ -50,7 +50,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-ternary3d = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ternary3d@umd/browser.js' )
+ternary3d = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ternary3d@v0.2.3-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -62,7 +62,7 @@ var ternary3d = require( 'path/to/vendor/umd/array-base-ternary3d/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ternary3d@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ternary3d@v0.2.3-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
